@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 void update_array(int arr[],int i,int val){
     arr[i]=val;
@@ -20,5 +20,7 @@ int main(){
     update_array(arr,2,12);
     print_array(arr,n);
     getsize_function(arr);
+    sort(arr,arr+n);
+    print_array(arr,n);
     return 0;
 }
