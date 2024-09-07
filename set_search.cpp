@@ -9,5 +9,8 @@ int main(){
     }else{
         cout<<"Is not Found";
     }
+    for(auto i:s){
+        cout<<i<<",";
+    }
     return 0;
 }
