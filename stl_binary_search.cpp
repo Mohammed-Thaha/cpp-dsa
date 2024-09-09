@@ -9,7 +9,7 @@ int main(){
     }
     int k;//key to be search in the arrar
     cin>>k;
-    int search=binary_search(arr,arr+n,k); //return the index index of the key in the array
+    int search=binary_search(arr,arr+n,k); //return 1 if the element is present 
     cout<<search<<endl;
     return 0;
 }
