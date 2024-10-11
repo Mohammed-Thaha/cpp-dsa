@@ -1,12 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 void left_shift_operator(int a,int b){
-    cout<<(a<<b)<<endl;     //a left shift b
-    //This operation works like this a*2^b
+    cout<<(a<<b)<<endl;     //a left shift b-->a*2^b
 }
 void right_shift_operator(int a,int b){
-    cout<<(a>>b)<<endl;   //a right shift b
-    //This operator works like this a/(2^b)
+    cout<<(a>>b)<<endl;   //a right shift b-->a/(2^b)
 }
 int main(){
     left_shift_operator(5,2); //5*(2^2)=20
