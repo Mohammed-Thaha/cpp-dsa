@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+// The below comment is for my reference
+//BUbble sort is working like swap the adjacent element to sort the array
 void bubble_sort(int arr[],int n){
     bool swaped=false;
     for(int i=0;i<n-1;i++){
