@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//insertion sort
 void insertion_sort(int arr[],int n){
     for(int i=1;i<n;i++){
         int key=arr[i];
