@@ -1,12 +1,16 @@
 #include <iostream>
 using namespace std;
-
+//what is Stack?
+    /* Stack is a linear Data Structure.It work in the principle of LIFO(last in first out
+    */
+//Stack Implementation in Singly Linkedlist
 struct node
 {
-    int data;
-    struct node *next;
-} *Top = NULL;
+    int data; //data part
+    struct node *next; //address of another node
+} *Top = NULL;//head part
 
+//Push the value to the top of the stack
 void push(int value)
 {
     struct node *newnode = (struct node *)malloc(sizeof(struct node));
@@ -15,6 +19,7 @@ void push(int value)
     Top = newnode;
 }
 
+//Pop(delete) the value from the top of the stack
 void pop()
 {
     if (Top == NULL)
@@ -29,7 +34,7 @@ void pop()
         free(temp);
     }
 }
-
+//Display the value from last to first
 void display()
 {
     if (Top == NULL)
@@ -75,3 +80,36 @@ int main()
     }
     return 0;
 }
+/*
+STACK Representation 
+
+|______|
+|__60__|
+|__70__|
+|__50__|
+|__20__|
+|__10__|
+|__15__|
+
+Pop()
+|______|
+|__70__|
+|__50__|
+|__20__|
+|__10__|
+|__15__|
+
+push(90)
+|______|
+|__90__|
+|__70__|
+|__50__|
+|__20__|
+|__10__|
+|__15__|
+
+Display 
+
+90 70 50 20 10 15
+
+*/
