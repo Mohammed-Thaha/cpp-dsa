@@ -19,7 +19,7 @@ This repository is my attempt to:
 ## 🗂️ Structure
 
 ```plaintext
-cpp-dsa/             # DSA concepts with code examples and notes
+cpp-dsa/             # DSA concepts with code explain using comments
 │   ├── Array_Program/
 │   ├── BitWise_Operator/
 │   ├── Pattern_Program/
