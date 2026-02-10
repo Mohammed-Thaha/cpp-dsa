@@ -1,8 +1,10 @@
 #include<iostream>
+#include "../Author.h"
 using namespace std;
 int main()
 {
     //In this program i am just counting the characters count in a string using array
+    Display();
     string s;
     cin>>s;
     int n=s.size();
