@@ -1,12 +1,12 @@
 # cpp-dsa
 
-# My C++ DSA Learning Journey 🌟
+# My C++ DSA Learning Journey 
 
 Welcome to my **C++ DSA Repository**, where I document my progress and experiences as I learn and practice **Data Structures and Algorithms (DSA)** using C++. This repository serves as a personal journal and resource for anyone interested in exploring DSA concepts through C++.
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This repository is my attempt to:
 
@@ -15,17 +15,3 @@ This repository is my attempt to:
 - **Share Knowledge**: Help others by sharing code snippets, explanations, and insights.
 
 ---
-
-## 🗂️ Structure
-
-```plaintext
-cpp-dsa/             # DSA concepts with code explain using comments
-│   ├── Array_Program/
-│   ├── BitWise_Operator/
-│   ├── Pattern_Program/
-│   ├── Problem_solving/
-|   ├── Sort_Algorithms/
-|   ├── Stack_Data_Structure/
-|   ├── STL(Standard Template Library in cpp)/
-|   ├── String_Program/
-└── README.md           # This file
